@@ -1,5 +1,5 @@
 {
-  "name": "nano-cache",
+  "name": "nano-memcached",
   "version": "0.0.2",
   "main": "index.js",
   "scripts": {
