@@ -3,7 +3,7 @@ type CacheEntry = {
   expiresAt?: number;
 };
 
-export class Cache {
+class Cache {
   private store: Map<string, CacheEntry> = new Map();
 
   set(key: string, value: any, ttl?: number) {
@@ -31,3 +31,5 @@ export class Cache {
     this.store.clear();
   }
 }
+
+export default Cache;
