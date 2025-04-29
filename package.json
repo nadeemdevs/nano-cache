@@ -1,7 +1,8 @@
 {
   "name": "nano-memcached",
   "version": "0.2.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts", 
   "scripts": {
     "build": "tsc",
     "test": "jest",
